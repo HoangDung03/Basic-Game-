@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fighting</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <!-- existing HTML code -->
+        <audio id="jumpSound" src="./assets/audio/Jump sound effect.mp3"></audio>
+        <audio id="moveSound" src="./assets/audio/Fast Run   Sound Effect Free No Copyright.mp3"></audio>
+        <audio id="backgroundSound" src="./assets/audio/nhacNen.mp3"></audio>
+        <audio id="attackSound" src="./assets/audio/chem.mp3"></audio>
+        <!-- existing HTML code -->
+      </div>
+      <!-- existing script imports -->
+      <div class="health-bar">
+        <!-- player health -->
+        <div class="health-bar_item border-l">
+          <div class="health-bar_hp" id="playerHealth"></div>
+        </div>
+        <div id="timer" class="timer">10</div>
+        <div class="health-bar_item border-r">
+          <div class="health-bar_hp" id="enermyHealth"></div>
+        </div>
+      </div>
+      <div class="tie">TIE</div>
+      <canvas width="1024" height="576"></canvas>
+    </div>
+    
+
+    <script src="./js/classes.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
